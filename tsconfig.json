@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "module": "commonjs",
+    "jsx": "preserve",
+    "esModuleInterop": true,
+    "lib": ["es2017", "dom"],
+    "strict": true,
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "paths": {
+      "*": ["./client/*", "./server/*"]
+    }
+  },
+  "include": ["./client/**/*", "./server/**/*"]
+}
